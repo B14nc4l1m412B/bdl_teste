@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Dosis&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #1C4E92;
+    padding-block: 8.98rem;
+    padding-inline: 25rem;
+}
+
+.divform {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 45rem;
+}
+
+.form {
+    height: 35rem;
+    background-color: #082244;
+    border-radius: 5%;
+    padding: 1rem;
+    box-shadow: 0px 5px 3px black;
+}
+
+.volta {
+    border: none;
+    background-color: #082244;
+    margin: 1rem;
+}
+
+.voltalogin {
+    color: #082244;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Bitter', serif;
+}
+
+.cadastro {
+    padding-inline: 2rem;
+}
+
+.paragrafo {
+    text-align: center;
+}
+
+.input {
+    height: 3.5rem;
+    width: 40rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+h2 {
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2rem;
+    padding-inline: 2rem;
+    padding-bottom: 2rem;
+}
+
+.link {
+    display: inline-block;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.cetralizabotao {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-block: 2rem;
+}
+
+.botao {
+    background-color: #144384;
+    border: none;
+    padding-block: 1.5rem;
+    padding-inline: 4rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 0px 5px 3px black;
+}
+
+.link2 {
+    display: inline-block;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1920px) {
+    .divform {/**/
+        padding-left: 25rem;
+        padding-block: 5rem;
+    }
+}

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Dosis&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 1rem;
+    background-color: #092244;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+.buttonLogo,
+.buttonLogin {
+    padding: 0.2rem;
+    display: block;
+    color: white;
+    width: 10rem;
+    text-align: center;
+}
+
+button {
+    background-color: #092244;
+    border: none;
+}
+
+.home {
+    font-size: 1.2rem;
+}
+
+.loginUsuario {
+    font-size: 1.5rem;
+}
+
+.home,
+.loginUsuario {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.Logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+.login {
+    height: 4rem;
+    width: 4rem;
+}
+
+.todomenu {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 96rem;
+}
+
+.menu {
+    font-size: 1.7rem;
+    text-decoration: underline;
+    color: #ffff;
+    font-weight: bold;
+    text-align: center;
+    padding-inline: 7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    background: #2F4B72;
+    color: white;
+}
+
+.divcamera {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+    background-color: #0C3264;
+}
+
+.camera {
+    height: 25rem;
+    width: 40rem;
+    border-radius: 10px;
+}
+
+.conteudo {
+    padding: 2.3rem;
+}
+
+h1 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-family: 'Bitter', serif;
+}
+
+p {
+    padding: 1.5rem;
+    padding-inline: 2rem;
+    font-size: 1.3rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+@media (max-width: 375px) {
+    .Logo {
+        height: 3rem;
+        width: 3rem;
+    }
+    .home {
+        font-size: 1rem;
+    }
+    .todomenu {
+        width: 10rem;
+        height: 5rem;
+        display: block;
+        border: 1px solid red;
+    }
+    .menu {
+        font-size: 0.7rem;
+        padding-inline: 1rem;
+        padding-block: 2rem;
+    }
+    .login {
+        height: 2rem;
+        width: 2rem;
+    }
+    .divcamera {
+        width: 23.43rem;
+    }
+    .camera {
+        width: 20rem;
+        height: 13rem;
+    }
+    .h1 {
+        font-size: 2.6rem;
+    }
+    .p {
+        padding-inline: 0.5rem;
+    }
+}
